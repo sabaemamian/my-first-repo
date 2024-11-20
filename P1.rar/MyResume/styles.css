@@ -1,0 +1,61 @@
+body {
+    font-family: 'B Nazanin', sans-serif;
+    background-color: #f3e5ab;
+    color: #333;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.upload-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #777;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.sidebar, .main-content {
+    background-color: #f7f3e3; /* کرم روشن */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.sidebar h2, .main-content h2 {
+    color: #555;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 8px 0;
+}
+
+input[type="file"] {
+    display: none;
+}
